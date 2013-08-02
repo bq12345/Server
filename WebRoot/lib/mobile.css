@@ -1,0 +1,150 @@
+.error {
+	margin: 0px 0px 10px; padding: 5px; border: 1px solid rgb(204, 0, 0); color: rgb(204, 0, 0);
+}
+.NoData {
+	padding: 20px 0px; text-align: center; color: rgb(102, 102, 102);
+}
+.clear {
+	clear: both;
+}
+.SmallPortrait {
+	background: rgb(255, 255, 255); padding: 1px; border: 1px solid rgb(102, 102, 102); opacity: 0.9; -moz-opacity: 0.9;
+}
+a:hover .SmallPortrait {
+	border: 1px solid rgb(64, 170, 83); opacity: 1; -moz-opacity: 1.0;
+}
+.userprofile td strong {
+	color: rgb(170, 0, 0);
+}
+form#form_comment {
+	margin: 10px 0px 0px;
+}
+h1.title {
+	font-size: 14pt;
+}
+.TextContent img {
+	max-width: 300px;
+}
+#header {
+	height: 75px;
+}
+.commentList table {
+	table-layout: fixed;
+}
+.commentList .portrait {
+	width: 36px; vertical-align: top;
+}
+.commentList .portrait img {
+	background: rgb(255, 255, 255); padding: 2px; border: 1px solid rgb(204, 204, 204); width: 24px; height: 24px;
+}
+.commentList .r_title {
+	color: rgb(102, 102, 102); font-size: x-small;
+}
+.commentList .body .TextContent {
+	margin-top: 5px;
+}
+.commentList .body div.ref {
+	margin: 0px 0px 10px; padding: 2px; font-size: 9pt; border-left-color: rgb(64, 170, 83); border-left-width: 2px; border-left-style: solid;
+}
+.commentList .body div.ref h4 {
+	margin: 0px; padding: 1px 3px; color: rgb(102, 102, 102); font-size: 9pt;
+}
+.commentList .body div.ref p {
+	margin: 0px; padding: 2px; line-height: 20px;
+}
+.commentList .opts {
+	text-align: right;
+}
+.commentList .opts a {
+	font-size: 9pt; text-decoration: none;
+}
+.commentList .replies {
+	
+}
+.commentList .replies ul {
+	margin: 0px; padding: 0px; font-weight: normal; list-style-type: none;
+}
+.commentList .replies ul li {
+	padding: 5px 0px 0px; font-size: 9pt; margin-top: 5px; border-top-color: rgb(153, 153, 153); border-top-width: 1px; border-top-style: dashed;
+}
+#Logs {
+	margin-top: 20px;
+}
+#Logs .userlogs li.Tweet {
+	padding: 0px 0px 2px; margin-bottom: 10px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+#Logs .userlogs li table {
+	width: 100%;
+}
+#Logs .portrait {
+	width: 36px; vertical-align: top;
+}
+#Logs .portrait img {
+	width: 24px; height: 24px;
+}
+#Logs .Log {
+	
+}
+#Logs .Log a {
+	text-decoration: none;
+}
+#Logs .Log .caption {
+	margin: 0px; padding: 0px; color: rgb(136, 136, 136); overflow: hidden; font-size: 10pt; font-weight: bold;
+}
+#Logs .Log .action a {
+	font-weight: bold;
+}
+#Logs .Log .bottom {
+	margin-top: 10px;
+}
+#Logs .Log .post {
+	margin: 5px 0px 0px; line-height: 22px; font-size: 10.5pt; font-weight: normal;
+}
+#Logs .Log .post a {
+	text-decoration: none;
+}
+#Logs .Log .post a:hover {
+	text-decoration: underline;
+}
+#Logs .Log .post a.referer {
+	text-decoration: none;
+}
+#Logs .Log .post a.referer:hover {
+	text-decoration: underline;
+}
+#Logs .Log .post img {
+	vertical-align: middle;
+}
+#Logs .Log .ref {
+	background: url("../img/space/up_arrow.gif") no-repeat 15px 0px; margin: 0px; padding: 5px 0px 0px; font-size: 9pt;
+}
+#Logs .Log .ref .p {
+	background: rgb(255, 255, 255); padding: 5px; border-radius: 5px; border: 1px solid rgb(204, 204, 204); color: rgb(153, 153, 153); font-weight: normal; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+#Logs .Log .ref .rpost {
+	margin: 3px 0px; display: block;
+}
+#Logs .Log .photo {
+	margin: 10px 0px;
+}
+#Logs .Log .photo img {
+	padding: 1px; border: 1px solid rgb(246, 246, 246);
+}
+#Logs .Log .photo a:hover img {
+	border: 1px solid rgb(64, 170, 83);
+}
+#Logs .Log .time {
+	margin: 0px; color: rgb(136, 136, 136); font-size: x-small; float: left;
+}
+#Logs .Log .opts {
+	margin: 0px 5px 0px 0px; font-size: 9pt; float: right;
+}
+#Logs .Log .opts a {
+	color: rgb(102, 102, 153);
+}
+#Logs .Log .opts a:hover {
+	color: rgb(170, 0, 0);
+}
+#Logs .Log .opts a span {
+	font-size: 7pt;
+}

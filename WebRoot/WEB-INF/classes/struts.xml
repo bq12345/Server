@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.enable.DynamicMethodInvocation" value="false" />
+	<constant name="struts.devMode" value="true" />
+	<constant name="struts.i18n.encoding" value="GB2312" />
+	<package name="default" namespace="/" extends="struts-default">
+	
+		<action name="query" class="com.bq.QueryBook">
+			<result name="success">/show.jsp</result>
+			<result name="input">/index.jsp</result>
+		</action>
+		
+		<action name="getBook" class="com.bq.GetBook">
+			<result name="success">/book.jsp</result>
+			<result name="input">/index.jsp</result>
+		</action>
+		
+		<action name="changeBook" class="com.bq.ChangeBook">
+			<result name="success" type="redirectAction">query</result>
+			<result name="input">/book.jsp</result>
+		</action>
+		
+		<action name="delBook" class="com.bq.DelBook">
+			<result name="success" type="redirectAction">query</result>
+			<result name="input">/show.jsp</result>
+		</action>
+			
+		<action name="addBook" class="com.bq.AddBook">
+			<result name="success" type="redirectAction">query</result>
+			<result name="input">/show.jsp</result>
+		</action>
+	</package>
+</struts> 
+   
