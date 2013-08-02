@@ -4,7 +4,7 @@ import com.opensymphony.xwork2.ActionSupport;
 
 /**
  * @author °×Ç¿
- *
+ * 12345
  */
 public class AddBook extends ActionSupport{
 	private Book book;
